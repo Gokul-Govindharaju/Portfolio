@@ -1,0 +1,37 @@
+@use '../custom' as *;
+.full{
+    background-color:#081b29;
+  }
+.menu{
+    
+    li{
+        padding: 0 1rem;
+    
+    a,a:visited{
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 24px;
+        color: white;
+    }
+
+    a:hover,a:active{
+        color: #00abf0;
+        background-color:#005678 ;
+        border-radius: 2rem;
+        
+        padding: 0.5rem 0.5rem;
+    }
+
+}
+}
+
+.navbar-toggler{
+    background-color: white !important;
+    border-color: white !important;
+}
+
+.navbar-toggler-icon{
+    background-color: white !important;
+}
+
+

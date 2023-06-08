@@ -1,0 +1,57 @@
+@import "../node_modules/bootstrap/scss/functions" ;
+@import "../node_modules/bootstrap/scss/variables" ;
+
+@import "../node_modules/bootstrap/scss/maps" ;
+@import "../node_modules/bootstrap/scss/mixins" ;
+
+$purle:#362360  ;
+$primary: $purle;
+
+$shades:#E2B0FF;
+$secondary:$shades;
+
+$light-blue: #e2c7f2 ;
+
+$theme:$light-blue;
+
+$custom-colors:(
+    "gokul": #890876
+);
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+// merge the maps
+
+
+
+
+// scss-docs-start gray-color-variables
+$white:    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+// scss-docs-end g
+$carousel-control-color: $primary !important;
+$carousel-control-width:             15% !default;
+
+$carousel-control-icon-width:        2.5rem !important;
+
+$carousel-control-width:             10%;
+
+$progress-bar-bg:$primary !important;
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>") ;
+
+
+
+ @import "../node_modules/bootstrap/scss/bootstrap.scss";

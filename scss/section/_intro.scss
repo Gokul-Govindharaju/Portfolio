@@ -1,0 +1,69 @@
+@use '../custom' as *;
+
+// intro section
+.intro-section{
+    
+    padding: 2rem;
+   margin-top: 1rem;
+   margin-bottom: 0.5rem;
+   height: 100vh;
+
+   
+}
+.introi{
+    background-color: #394954;
+    border-radius: 80%;
+    
+
+    &-image{
+        width: 450px;
+        
+    }
+}
+
+.intros{
+    font-family: 'Rubik', sans-serif;
+   
+    &--heading{
+        color: white;
+        font-weight: 700;
+        font-size: 5rem;
+    }
+    &--sub-head{
+        color: #00abf0;
+        font-size: 2rem;
+        
+    }
+
+    &--description{
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            color: white;
+    }
+
+   &--icon{
+    margin-top: 2rem;
+    color: #00abf0;
+    gap: 2rem;
+
+    li{
+        a:hover{
+            color: white;
+        }
+    }
+   }
+}
+   .btn-primary,.btn-primary:visited{
+    background-color: #00abf0 !important;
+    margin-top: 2rem;
+    
+    border-radius: 2rem !important;
+    font-size: 1.5rem !important;
+    
+    
+   }
+
+   .btn-primary:hover,.btn-primary:active{
+    background-color: #005678 !important;
+    border-color: beige !important;
+   }

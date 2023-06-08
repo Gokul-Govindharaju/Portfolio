@@ -1,0 +1,32 @@
+@use '../custom' as *;
+
+
+.about-me{
+    margin-top: 0.5rem;
+    margin-bottom: 6rem;
+}
+.about{
+    &-head{
+        font-size: 4rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 3rem;
+        
+    }
+
+    &-para{
+        
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 3rem;
+        line-height: 1.3;
+    }
+}
+
+.skills{
+    &-list{
+        color: white;
+        list-style: none;
+        font-size: 1.5rem;
+    }
+}

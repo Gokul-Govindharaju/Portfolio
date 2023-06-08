@@ -1,0 +1,15 @@
+@use '../custom' as *;
+.certification{
+    padding: 3rem;
+    margin-bottom: 8rem;
+}
+.certificates{
+    &-head{
+        font-size: 4rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 3rem;
+        
+    }
+}
+

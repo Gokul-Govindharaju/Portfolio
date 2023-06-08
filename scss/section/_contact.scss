@@ -1,0 +1,59 @@
+@use "../custom" as *;
+
+
+
+// #contact{
+//   margin-bottom: 8rem;
+// }
+
+.details{
+    background-color:#e6e8ea;
+    border-radius: 2rem 0 0 2rem;
+    padding: 3rem ;
+
+    &-head{
+        font-size: 3rem;
+        color:#081b29 ;
+    }
+
+    &-para{
+        font-size: 1.2rem;
+    }
+
+    &-list{
+        gap: 2rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        
+        li{
+
+            a:link,a:visited{
+                text-decoration: none;
+                font-size: 1.3rem;
+                color:#081b29;
+                
+                
+                span{
+                  margin-left: 1rem;
+                }
+            }
+
+            a:hover,a:active{
+                color: #394954;
+            }
+            
+        }
+    }
+}
+
+.form{
+    background-color:#394954 ;
+     
+   border-radius: 0 2rem 2rem 0;
+   padding: 3rem;
+}
+
+.la{
+    color: #e6e8ea;
+}
+
